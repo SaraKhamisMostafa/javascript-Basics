@@ -63,7 +63,7 @@
 
 
 
- //conditions
+//conditions
 //  let studentAge=prompt('Enter Your Age:')
 
 //  if(age>20){
@@ -100,6 +100,60 @@
 // console.log(allowAccess)
 
 //ternary operators
-let age =prompt("Enter Your Age")
-let allowAccess=(age>20)?true: false;
-console.log(allowAccess)    
+// let age =prompt("Enter Your Age")
+// let allowAccess=(age>20)?true: false;
+// console.log(allowAccess)   
+
+// let company = prompt ('Enter Your Company :')
+// if (company=='google') {
+//     alert('good')
+// } else {
+//     alert('bad')
+// }
+// let company = prompt ('Enter Your Company :');
+// (company == 'google')? alert('good') : alert('bad')
+//////loop
+// let i =1;
+// while(i<100){
+//     console.log(i)
+//      i=i+2
+// }
+
+
+
+
+// let n = 1;
+// while (n <= 6) {
+//     let i = 1;
+//     while (i <= 12) {
+//         let res=n*i;
+//         console.log(`${n} X ${i}= ${res}`)
+//         i = i + 1
+//     }
+//     n = n + 1
+//     console.log('---------------------')
+
+// }
+
+// let n = prompt("Enter Number");
+// let i = 1;
+// while (i <= 12) {
+//     let res=n*i;
+//     console.log(`${n} X ${i}= ${res}`)
+//     i = i + 1
+// }
+let n = Number(prompt("Enter Number")) ;
+let e= Number(prompt("Enter End")) ;
+while (n <= e) {
+    let i = 1;
+    while (i <= 12) {
+        let res=n*i;
+        console.log(`${n} X ${i}= ${res}`)
+        i = i + 1
+    }
+    n = n + 1
+    console.log('---------------------')
+
+}
+
+   
